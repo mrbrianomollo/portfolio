@@ -1,0 +1,14 @@
+.menu {
+    font-family: ubuntu mono, 'Courier New', Courier, monospace;
+    font-size: 17px;
+}
+.menu a{
+    color:#ccd6f6;
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    }
+.menu a:hover{
+    background-color: #1d2d50;
+    color: #a2aabc;
+}
