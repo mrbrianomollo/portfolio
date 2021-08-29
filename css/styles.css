@@ -3,6 +3,13 @@ h1, h2, h3{
     color: #64ffda; 
 }
 
+h2 {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+}
+
 .content {
     color: white;
 }
@@ -51,4 +58,4 @@ h1, h2, h3{
 .bold {
     font-weight: bold;
 }
-    
+
