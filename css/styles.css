@@ -1,14 +1,45 @@
+.content {
+    color: white;
+}
+
 .menu {
     font-family: ubuntu mono, 'Courier New', Courier, monospace;
     font-size: 17px;
+    text-align: right;
 }
+
+.menu li{
+    display: inline;
+}
+
 .menu a{
     color:#ccd6f6;
-    float: right;
+    display: inline-block;
     text-align: center;
     padding: 14px 16px;
     }
+
 .menu a:hover{
     background-color: #1d2d50;
     color: #a2aabc;
 }
+
+.intro {
+    font-family: ubuntu mono, 'Courier New', Courier, monospace;
+    color: #64ffda;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 0px;   
+}
+
+.name {
+    font-family: titan one;
+    font-size: 40px;
+    margin-left: 40px;
+    color: white;
+    }
+
+.special{
+    color: #ccd6f6;
+}
+    
