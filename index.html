@@ -50,9 +50,6 @@
                         <li>Gaming is one of those things that I love doing . Makes me relax after a hard day.</li>
                         <li>Watching movies mostly comedies, <em>who doesn’t love to laugh</em>?</li>
                         <li>Travelling the world and getting to see different places and cultures.</li>
-
-
-
                 </div>
                 <div class="col-md-6 d-flex justify-content-center">    
                     <img class="img-fluid" class="img-responsive" src="img/brian.jpg" alt="Brian">
@@ -70,14 +67,60 @@
                     <h4>Are you a sports fanatic?</h4>    
                     <p>An online store  I own and created, using a premium theme, with little knowldge in programming. It is fully automated from start to end. Mobile-friendly with an easy checkout page that processes mpesa payments on the GO. <a href="https://www.fanbase.co.ke/" target="_blank"><span class="bold">Visit Website</span></a></p>
                 </div>
-               
             </div>
         </div>
         <h2>Skills</h2>
         <img class="img-thumbnail rounded mx-auto d-block" src="img/html-css.jpg" width="500px">
-        <h2>Contact</h2>
+        <h2>Contact Me</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="md-form mb-0 form">
+                                    <label for="name" class="">First & Last Name</label>
+                                    <input type="text" id="name" name="name" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="md-form mb-0 form">
+                                    <label for="email" class="">Email Address</label>
+                                    <input type="text" id="email" name="email" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form mb-0 form">
+                                    <label for="subject" class="">Subject</label>
+                                    <input type="text" id="subject" name="subject" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+
+                                <div class="md-form form">
+                                    <label for="message">Your message</label>
+                                    <textarea type="text" id="message" name="message" rows="4" class="form-control md-textarea"></textarea>
+                                    
+                                </div>
+
+                            </div>
+                        </div>
+                    </form>
+                    <div class="text-center text-md-left form">
+                        <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                    </div>
+                    <div class="status"></div>
+                </div>
+                <div class="col-md-6 columntext">
+                    <h3>I'd love to hear from you</h3>
+                    <p>Do you have any questions about me or my projects, or (politely) argue about soccer, or challenge me in a game of FIFA, I’m your guy!<br> I’m available to work on your project and make that dream come true. Let me create that next big thing for you.
+                </div>
+            </div>
+        </div>
         
-
-
     </body>
 </html>
